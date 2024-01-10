@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(219, 218, 210, 0.566);
+}
+
+.pokemoon-con {
+    width: 600px;
+    text-align: center;
+    background-color: rgb(245, 242, 173);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.img-con {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.id-con {
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-left: auto;
+    border-radius: 20px;
+    background-color: rgb(246, 189, 20);
+}
+.type {
+    width: 150px;
+    padding: 10px 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: rgb(241, 212, 95);
+}
+
+.pok-img {
+    width: 250px;
+}
+
+.pokemoon-name {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.Button {
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(27, 27, 26);
+    margin-top: 30px;
+    padding: 15px 80px;
+    cursor: pointer;
+}
+
+.malumotlar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 750px) {
+    .pokemoon-con {
+        width: 550px;
+        padding: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pokemoon-con {
+        width: 450px;
+        padding: 25px;
+    }
+
+    .pok-img {
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 460px) {
+    .pokemoon-con {
+        width: 400px;
+    }
+}
